@@ -25,7 +25,6 @@ const deployTokenVaultViaCreate2Factory = async () => {
       gasLimit: gasLimit,
       maxFeePerGas: maxFeePerGas,
       maxPriorityFeePerGas: maxPriorityFeePerGas,
-      nonce: 1,
     })
     const txReceipt = await tokenVaultDeploy.wait();
     console.log(`receipt: ${JSON.stringify(txReceipt)}`);

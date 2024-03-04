@@ -74,7 +74,7 @@ Therefore, a possible way to use the `deliverToken` and `tokenDeliveryAllowedTim
 └── package.json
 ```
 
-_Contracts_
+_contracts_
 
 Contains the main `TokenVault.sol` contract, along with other contracts used for testing:
 
@@ -86,7 +86,7 @@ _test_
 
 Contains tests for the project.
 
-* `TokenVaultTesting.ts`: All tests for the `TokenVault` are contained in this file. Testing is done via Hardhat's typically testing approach/libraries, which are detailed [here](https://hardhat.org/hardhat-runner/docs/guides/test-contracts).
+* `TokenVaultTesting.ts`: All tests for the `TokenVault` are contained in this file. Testing is done via Hardhat's typical testing approach/libraries, which are detailed [here](https://hardhat.org/hardhat-runner/docs/guides/test-contracts).
 
 
 _scripts_
