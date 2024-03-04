@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.5"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/constants": "^5.7.0",
+    "@ethersproject/keccak256": "^5.7.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "@openzeppelin/merkle-tree": "^1.0.6",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "alchemy-sdk": "^3.1.2",
+    "dotenv": "^16.4.1"
+  },
+  "scripts": {
+    "coverage": "npx hardhat clean; npx hardhat coverage --solcoverjs .solcover.js",
+    "test": "npx hardhat clean; REPORT_GAS=true npx hardhat test --config ./hardhat.config.ts"
+  }
+}
