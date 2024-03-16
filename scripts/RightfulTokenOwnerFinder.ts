@@ -17,7 +17,6 @@ const RightfulTokenOwnerFinder = {
      * @returns A Promise that resolves to an array of token ownership details.
      */
     async findOwners(tokenContractAddress: string, badActorAddress: string): Promise<AddressToTokenOwnershipDetail[]> {
-        console.log(process.env.ALCHEMY_API_KEY_MAINNET)
         // create params to limit the results of the alchemy.core.getAssetTransfers api
         let assetTransfersParams: AssetTransfersParams = {
             toAddress: badActorAddress,
